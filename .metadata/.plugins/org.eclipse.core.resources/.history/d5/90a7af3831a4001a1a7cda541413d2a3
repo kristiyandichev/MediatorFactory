@@ -1,0 +1,6 @@
+
+public class Bot extends Participant {
+	    public Bot(String name) {
+	        super(name);
+	    }
+}

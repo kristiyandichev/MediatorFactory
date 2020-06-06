@@ -1,0 +1,10 @@
+public abstract class ChatRoom {
+	
+	public abstract void register(Participant participant);
+    public abstract void unregister(Participant participant);
+    public abstract void send(String from, String to, String message);
+	protected abstract void Participant(Participant participant);
+	protected abstract void showMessage(Participant participant, String message);
+    
+}
+

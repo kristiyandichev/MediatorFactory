@@ -1,0 +1,22 @@
+
+public class Participant {
+
+	public Participant(String participantName) {
+		
+	}
+
+	public Participant(String name) {
+		
+	}
+
+	public Object getName() {
+	
+		return null;
+	}
+
+	public void receive(Object name, String string) {
+		
+		
+	}
+
+}

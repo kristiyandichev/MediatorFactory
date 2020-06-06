@@ -1,0 +1,24 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+        ParticipantFactory participantFactory = new ParticipantFactory();
+        Participant ivancho = participantFactory.getParticipant("USER", "Ivan");
+        Participant dragancho = participantFactory.getParticipant("USER", "Sasho");
+        Participant petkancho = participantFactory.getParticipant("USER", "Georgi");
+
+        chatRoom.register(ivan);
+        chatRoom.register(sasho);
+        chatRoom.register(gosho);
+
+        ivan.send("Ivan", "How's it going?");
+        sasho.send("Ivan", "I'm fine thank you!");
+        gosho.send("Ivan", "addBot");
+
+        petkancho.send("Ivancho", "cat is awesome");
+
+	}
+
+}
+	

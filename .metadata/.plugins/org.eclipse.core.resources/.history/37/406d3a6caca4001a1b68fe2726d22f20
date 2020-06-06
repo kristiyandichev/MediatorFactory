@@ -1,0 +1,22 @@
+
+public class Participant {
+
+	public Participant(String participantName) {
+		
+	}
+
+	public Participant(String name) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Object getName() {
+	
+		return null;
+	}
+
+	public void receive(Object name, String string) {
+		
+		
+	}
+
+}
